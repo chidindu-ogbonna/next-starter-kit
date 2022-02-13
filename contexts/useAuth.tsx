@@ -1,9 +1,23 @@
-import React, { useState, createContext, useEffect } from "react";
+import React, { useState, createContext, useEffect, useContext } from "react";
 import { useRouter } from "next/router";
 
-interface IAuthContext {}
+interface IAuthContext {
+  user: any;
+  login: any;
+  signUp: any;
+  signOut: any;
+  sendPasswordResetEmail: any;
+  confirmPasswordReset: any;
+}
 
-const AuthContext = createContext<IAuthContext>({});
+const AuthContext = createContext<IAuthContext>({
+  user: {},
+  login: () => true,
+  confirmPasswordReset: () => true,
+  signUp: () => true,
+  signOut: () => true,
+  sendPasswordResetEmail: () => true,
+});
 
 const AuthProvider = (props: { children: React.ReactNode }) => {
   const router = useRouter();
@@ -50,4 +64,6 @@ const AuthProvider = (props: { children: React.ReactNode }) => {
   );
 };
 
-export { AuthContext, AuthProvider };
+const useAuth = () => useContext(AuthContext);
+
+export { useAuth, AuthProvider };
