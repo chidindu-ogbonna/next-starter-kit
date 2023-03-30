@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Graphik";
+    src: url("../assets/fonts/Graphik/Graphik-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../assets/fonts/Graphik/Graphik-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../assets/fonts/Graphik/Graphik-Semibold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../assets/fonts/Graphik/Graphik-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("../assets/fonts/Graphik/Graphik-BoldItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url('../assets/fonts/GT-Walsheim/GT-Walsheim-Regular.woff2');
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: common-ligatures;
+    unicode-range: U+000-5FF;
+  }
+
+  @font-face {
+    font-family: 'GT-Walsheim';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: url('../assets/fonts/GT-Walsheim/GT-Walsheim-Bold.woff2');
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: common-ligatures;
+    unicode-range: U+000-5FF;
+  }

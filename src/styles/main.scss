@@ -1,0 +1,18 @@
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.gradient-tricolor {
+    @apply overflow-hidden bg-cover bg-no-repeat;
+    background-image: url("../images/background_noise_50.png"), url("../images/Gradient_yellow_purple.png");
+    background-position: 50% 50%, 50% 50%;
+}
+
+.gradient-yellow {
+    overflow: hidden;
+    background-image: url("../images/background_noise_50.png"), url("../images/yellow_gradient.png");
+    background-position: 50% 50%, 50% 50%;
+    background-size: cover, cover;
+}

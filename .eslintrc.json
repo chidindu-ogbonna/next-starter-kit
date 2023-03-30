@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": 2,
+    "prettier/prettier": 1
+  }
+}
